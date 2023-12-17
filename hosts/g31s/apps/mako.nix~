@@ -1,0 +1,11 @@
+{ pkgs, config, ... }:
+
+{
+  services.mako = {
+    enable = true;
+    layer = "overlay";
+    backgroundColor = "#${config.colorScheme.colors.base01}";
+    borderColor = "#${config.colorScheme.colors.base01}";
+
+  };
+}

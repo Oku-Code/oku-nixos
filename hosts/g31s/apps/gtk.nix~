@@ -1,0 +1,13 @@
+{ pkgs, config, ... }:
+{
+  gtk = {
+    enable = true;
+    cursorTheme.package = pkgs.bibata-cursors;
+    cursorTheme.name = "Bibata-Modern-Ice";
+    theme.package = pkgs.arc-theme;
+    theme.name = "arc-light";
+    iconTheme.package = pkgs.tela-circle-icon-theme;
+    iconTheme.name = "Tela-Circle";
+    
+  };
+}
