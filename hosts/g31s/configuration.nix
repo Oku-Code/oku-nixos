@@ -153,7 +153,6 @@
       tree
       zathura
       emacs29-gtk3
-      foot
       findutils
       nixfmt
     ];
@@ -166,6 +165,7 @@
     wget
     curl
     bat
+    eza
     cmake
     home-manager
     gcc
@@ -221,4 +221,3 @@
   system.stateVersion = "23.11"; # Did you read the comment?
 
 }
-
