@@ -7,6 +7,7 @@
 
    wayland.windowManager.sway = {
      enable = true;
+     systemd.enable = true;
      config = rec {
        modifier = "Mod4";
        terminal = "alacritty";
