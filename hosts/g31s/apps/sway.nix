@@ -29,7 +29,8 @@
        };
      };
      extraConfig = ''
-       default_border none
+      default_border none
+      bindsym Mod4+c exec grim -g "$(slurp)" ~/pics/screenshots/$(date +'%H:%M:%S.png')
      '';
    };  
 }

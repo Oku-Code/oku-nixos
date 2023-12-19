@@ -9,6 +9,9 @@
     ./hardware-configuration.nix
   ];
 
+  # Unfree Packages
+  nixpkgs.config.allowUnfreePredicate = _: true;
+
   # Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
@@ -155,6 +158,7 @@
       emacs29-gtk3
       findutils
       nixfmt
+      snes9x-gtk
     ];
   };
 

@@ -42,8 +42,6 @@
         italic.family = "Iosevka";
       };
 
-      cursor.style = "Beam";
-      
       window = {
         decorations = "none";
         padding = {
