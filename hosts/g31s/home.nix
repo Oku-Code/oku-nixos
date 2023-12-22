@@ -13,6 +13,7 @@
     # Imports from features or specific configurations
     ./features/alacritty.nix
     ./features/gtk.nix
+    ./features/wofi.nix
   ];
 
   home.username = "oku";
@@ -24,6 +25,8 @@
     [
       font-awesome
       neofetch
+      wofi
+
       # # It is sometimes useful to fine-tune packages, for example, by applying
       # # overrides. You can do that directly here, just don't forget the
       # # parentheses. Maybe you want to install Nerd Fonts with a limited number of

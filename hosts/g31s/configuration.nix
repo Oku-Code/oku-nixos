@@ -155,6 +155,8 @@
       firefox
       tree
       zathura
+      xfce.thunar
+      xfce.thunar-volman
       emacs29-gtk3
       findutils
       nixfmt
