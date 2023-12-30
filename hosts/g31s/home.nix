@@ -9,11 +9,12 @@
     ./apps/sway.nix
     ./apps/git.nix
     ./apps/mako.nix
+    ./apps/wofi.nix
 
     # Imports from features or specific configurations
     ./features/alacritty.nix
     ./features/gtk.nix
-    ./features/wofi.nix
+    
   ];
 
   home.username = "oku";
@@ -26,6 +27,7 @@
       font-awesome
       neofetch
       wofi
+
 
       # # It is sometimes useful to fine-tune packages, for example, by applying
       # # overrides. You can do that directly here, just don't forget the

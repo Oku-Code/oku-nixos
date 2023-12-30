@@ -5,8 +5,9 @@
     enable = true;
     shellAliases = {
       ll = "ls -lha";
-      cat = "bat --theme OneHalfDark";
-      ".." = "cd .."
+      em = "emacsclient -c";
+      bt = "bat --theme Nord";
+      ".." = "cd ..";
     };
   };
 }

@@ -1,4 +1,4 @@
-{ pkgs, config, lib, ... }:
+{ pkgs, config, ... }:
 
 {
   programs.alacritty = {
@@ -36,7 +36,7 @@
       }; 
 
       font = {
-        size = 12.0;
+        size = 14.0;
         normal.family = "Iosevka";
         bold.family =  "Iosevka";
         italic.family = "Iosevka";

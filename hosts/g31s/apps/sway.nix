@@ -16,14 +16,14 @@
         style = "Bold Semi-Condensed";
         size = 11.0;
       };
+      bars = [];
       gaps = { inner = 10; };
       menu = "wofi --show run";
     };
     extraConfig = ''
       default_border none
       bindsym Mod4+c exec grim -g "$(slurp)" ~/pics/screenshots/$(date +'%H:%M:%S.png')
-      bindsym Mod4+Shift+c exec grim -g "$(slurp)" ~/pics/screenshots/$(date + "%H:%M:%S.png") | wl-copy
-
+      bindsym Mod4+x exec grim -g "$(slurp)" - | wl-copy
     '';
   };
 }

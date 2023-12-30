@@ -31,8 +31,7 @@
   networking.hostName = "g31s"; # Define your hostname.
   # Pick only one of the below networking options.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-  networking.networkmanager.enable =
-    true; # Easiest to use and most distros use this by default.
+  networking.networkmanager.enable = true; # Easiest to use and most distros use this by default.
 
   # Set your time zone.
   time.timeZone = "America/Bogota";
@@ -91,10 +90,10 @@
       swayidle
       wl-clipboard
       wf-recorder
+      wayland-logout
       mako
       grim
       slurp
-      dmenu
       alacritty
       wayland
       xdg-utils
@@ -160,7 +159,7 @@
       emacs29-gtk3
       findutils
       nixfmt
-      snes9x-gtk
+      mpv
     ];
   };
 
