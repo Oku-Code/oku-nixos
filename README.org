@@ -1,0 +1,34 @@
+#+TITLE: NixOS configuration by Oku
+#+AUTHOR: Oku-Code
+#+DESCRIPTION: This is the configurations for my desktop with nixos
+#+DATE: <2023-12-30 Sat 12:02>
+
+NixOS is an linux distribution based on the nix package manager, this
+distribution is amazing, declarative configurations, home-manager,
+flakes, atomic update and rollback features are those things every
+computer lover needs.
+
+This is my configuration, so it is a work in progress, so take things
+do you consider valuable.
+
+* Things to do [0/2]
+
+- [ ] Finish to configure sway
+- [ ] Done with the system configurations
+  
+#+begin_quote
+This is still a work in progress and also i'm a novice with this kind
+of OS, so maybe there's another ways to config my system in a modular way.
+#+end_quote
+
+** Resources
+
+NixOS has one big problem, their documentation lacks in some aspects
+and getting errors for your problem being problematic sometimes, here
+i'm going to put some amazing resources, youtube channels for future
+reference or if i forget something.
+
+- HOW to REALLY learn NixOS: [[https://www.youtube.com/watch?v=1ED9b7ERTzI][IogaMaster explains how to learn it in a consice way]]
+- LibrePhoenix: [[https://www.youtube.com/watch?v=6WLaNIlDW0M&list=PL_WcXIXdDWWpuypAEKzZF2b5PijTluxRG][NixOS playlist by LibrePhoenix]]
+- MyNixOS: [[https://mynixos.com/][Amazing website for looking options for nixos and home-manager]]
+- Vimjoyer: [[https://www.youtube.com/watch?v=bjTxiFLSNFA&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE][NixOS playlist by vimjoyer]]
