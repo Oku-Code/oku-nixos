@@ -33,20 +33,20 @@
           white = "0x${config.colorScheme.colors.base06}";
           yellow = "0x${config.colorScheme.colors.base0A}";
         };
-      }; 
+      };
 
       font = {
         size = 14.0;
-        normal.family = "Iosevka";
-        bold.family =  "Iosevka";
-        italic.family = "Iosevka";
+        normal.family = "IBM Plex Mono";
+        bold.family = "IBM Plex Mono";
+        italic.family = "IBM Plex Mono";
       };
 
       window = {
         decorations = "none";
         padding = {
-          x = 20;
-          y = 20;
+          x = 15;
+          y = 15;
         };
         opacity = 0.95;
       };

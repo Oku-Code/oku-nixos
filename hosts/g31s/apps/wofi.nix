@@ -30,7 +30,7 @@ window {
     opacity: 0.9;
     border:  0px;
     border-radius: 10px;
-    font-family: Iosevka;
+    font-family: IBM Plex Mono;
     font-size: 14px;
 }
 

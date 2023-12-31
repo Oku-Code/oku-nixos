@@ -12,7 +12,7 @@
       input."*" = { xkb_layout = "es"; };
       output."*" = { bg = "~/pics/wall3.jpg fill"; };
       fonts = {
-        names = [ "Fira Code" "FontAwesome" ];
+        names = [ "IBM Plex Mono" "FontAwesome" ];
         style = "Bold Semi-Condensed";
         size = 11.0;
       };

@@ -31,7 +31,8 @@
   networking.hostName = "g31s"; # Define your hostname.
   # Pick only one of the below networking options.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-  networking.networkmanager.enable = true; # Easiest to use and most distros use this by default.
+  networking.networkmanager.enable =
+    true; # Easiest to use and most distros use this by default.
 
   # Set your time zone.
   time.timeZone = "America/Bogota";
@@ -52,6 +53,7 @@
     roboto-mono
     roboto
     iosevka
+    ibm-plex
     noto-fonts-cjk
     noto-fonts-emoji
     liberation_ttf
@@ -63,22 +65,17 @@
   ];
 
   # Enable the X11 windowing system.
-  # services.xserver.enable = true;
-
-  # Configure keymap in X11
-  # services.xserver.xkb.layout = "us";
-  # services.xserver.xkb.options = "eurosign:e,caps:escape";
-
-  # X11 - Wayland
   services = {
     xserver = {
       enable = true;
       displayManager.lightdm.enable = true;
     };
-    
-    dbus = {
-      enable = true;
-    };
+
+    # Configure keymap in X11
+    # services.xserver.xkb.layout = "us";
+    # services.xserver.xkb.options = "eurosign:e,caps:escape";
+
+    dbus = { enable = true; };
   };
 
   # Sway
@@ -171,9 +168,7 @@
     curl
     bat
     eza
-    cmake
     home-manager
-    gcc
   ];
 
   # BTRFS
@@ -205,7 +200,7 @@
   # Copy the NixOS configuration file and link it from the resulting system
   # (/run/current-system/configuration.nix). This is useful in case you
   # accidentally delete configuration.nix.
-  # system.copySystemConfiguration = true;
+  system.copySystemConfiguration = true;
 
   # This option defines the first version of NixOS you have installed on this particular machine,
   # and is used to maintain compatibility with application data (e.g. databases) created on older NixOS versions.
