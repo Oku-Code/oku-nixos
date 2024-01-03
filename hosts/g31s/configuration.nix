@@ -16,17 +16,21 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # Automatic Cleaning
-  nix.gc.automatic = true;
-  nix.gc.dates = "09:00";
+  nix.gc = {
+    automatic = true;
+    dates = "11:00";
+  };
 
   # Use the GRUB 2 boot loader.
-  boot.loader.grub.enable = true;
-  # boot.loader.grub.efiSupport = true;
-  # boot.loader.grub.efiInstallAsRemovable = true;
-  # boot.loader.efi.efiSysMountPoint = "/boot/efi";
-  # Define on which hard drive you want to install Grub.
-  boot.loader.grub.device = "/dev/sda"; # or "nodev" for efi only
-  boot.loader.grub.useOSProber = true;
+  boot.loader.grub = {
+    enable = true;
+    # efiSupport = true;
+    # efiInstallAsRemovable = true;
+    # Define on which hard drive you want to install Grub.
+    device = "/dev/sda";
+    useOSProber = true;
+    default = "1";
+  };
 
   networking.hostName = "g31s"; # Define your hostname.
   # Pick only one of the below networking options.
@@ -149,6 +153,7 @@
     extraGroups = [ "wheel" "audio" "video" ]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
       firefox
+      tela-icon-theme
       tree
       zathura
       xfce.thunar
