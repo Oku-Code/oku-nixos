@@ -22,6 +22,7 @@
   fileSystems."/data" =
     { device = "/dev/disk/by-label/data";
       fsType = "ext4";
+      options = [ "uid=1000" "gid=100" "dmask=007" "fmask=117" ]
     };
 
   fileSystems."/home" =

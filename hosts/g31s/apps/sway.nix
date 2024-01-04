@@ -10,7 +10,7 @@
       modifier = "Mod4";
       terminal = "alacritty";
       input."*" = { xkb_layout = "es"; };
-      output."*" = { bg = "~/pics/wall3.jpg fill"; };
+      output."*" = { bg = "~/pics/whale.png fill"; };
       fonts = {
         names = [ "IBM Plex Mono" "FontAwesome" ];
         style = "Bold Semi-Condensed";
