@@ -29,7 +29,7 @@
     # Define on which hard drive you want to install Grub.
     device = "/dev/sda";
     useOSProber = true;
-    default = "1";
+    default = "2";
   };
 
   networking.hostName = "g31s"; # Define your hostname.
@@ -159,6 +159,7 @@
       xfce.thunar
       xfce.thunar-volman
       emacs29-gtk3
+      snes9x-gtk
       findutils
       nixfmt
       mpv
