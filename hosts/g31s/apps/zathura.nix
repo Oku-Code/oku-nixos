@@ -1,7 +1,7 @@
 { pkgs, config, ... }:
 
 {
-  packages.zathura = {
+  programs.zathura = {
     enable = true;
     options = {
       recolor = true;
@@ -17,7 +17,7 @@
       notification-fg = "#18191e";
       completion-bg = "#18191E" ; 
       completion-fg = "#44B273"; 
-      completion-group-bg = "#18191E" 
+      completion-group-bg = "#18191E"; 
       completion-group-fg  = "#ED722E" ;
       completion-highlight-bg = "#FFFF00" ;
       completion-highlight-fg  =    "#21252D"; 

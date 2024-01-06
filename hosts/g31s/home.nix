@@ -10,6 +10,7 @@
     ./apps/git.nix
     ./apps/mako.nix
     ./apps/wofi.nix
+    ./apps/zathura.nix
 
     # Imports from features or specific configurations
     ./features/alacritty.nix
