@@ -158,11 +158,14 @@
       zathura
       xfce.thunar
       xfce.thunar-volman
+      xfce.thunar-archive-plugin
       emacs29-gtk3
-      snes9x-gtk
+      desmume
       findutils
       nixfmt
       mpv
+      unrar
+      p7zip
     ];
   };
 
